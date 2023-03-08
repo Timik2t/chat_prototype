@@ -22,7 +22,7 @@ PostgreSQL
 ## Подготовка и запуск проекта
 ### Склонировать репозиторий на локальную машину:
 ```
-git clone https://github.com/Timik2t/foodgram-project-react.git
+git clone git@github.com:Timik2t/chat_prototype.git
 ```
 * Cоздайте .env файл и впишите:
     ```
@@ -32,6 +32,7 @@ git clone https://github.com/Timik2t/foodgram-project-react.git
     DB_PASSWORD=<пароль>
     DB_HOST=<db>
     DB_PORT=5432
-    SECRET_KEY=<секретный ключ проекта django>
+    
+    DJANGO_KEY=<секретный ключ проекта django>
     ```
 
